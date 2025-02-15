@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "build": "mkdir -p dist && echo 'No build step required' > dist/index.html"
+    "build": "vite build"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
